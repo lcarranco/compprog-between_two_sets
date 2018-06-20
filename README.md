@@ -87,7 +87,7 @@ Print the number of integers considered to be _between a_ and _b_.
 4, 8, and 16
 
 ### Algorithm
-1. Read from input and write to respective variables
+1. Read from input and write to respective variables. Place list of numbers in a set to remove duplicates and guarantee ordering
 2. Compute the modulo from 1 to the largest integer in array A for each element in A
 	1. Flag each element in array A whose modulo result produces 0
 3. Compute the modulo for every element in array B with each flag in array A
